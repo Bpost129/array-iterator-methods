@@ -15,26 +15,26 @@ const inventors = [
 ];
 
 // Array.prototype.filter()
-// 1. Filter the array of inventors into a new array containing only the inventors born in the 1500's
+// 1. Filter the array of inventors into a new array containing only the inventors born in the 1500's.
 
 
 
 // Array.prototype.map()
-// 2. Map the array of the inventors into a new array containing objects with just the first and last names as properties
+// 2. Map the array of the inventors into a new array containing objects with just the first and last names as properties.
 
 
 
 // Array.prototype.sort()
-// 3. Sort the inventors by birthdate, oldest to youngest
+// 3. Sort the inventors by birthdate, oldest to youngest.
 
 
 
-// 4. Sort the inventors by years lived from shortest to longest-lived
+// 4. Sort the inventors by years lived from shortest to longest-lived.
 
 
 
 // Array.prototype.reduce()
-// 5. How many years did all the inventors live?
+// 5. Find how many years all the inventors lived combined.
 
 
 
@@ -64,7 +64,7 @@ const data = [
 
 // Array.prototype.reduce()
 // 7. Count the number of instances for each of the data items.
-// Hint:  Return an object where the keys are 'car', 'truck', etc. and the values are the count.
+// Hint: Return an object where the keys are 'car', 'truck', etc., and the value is the total number of times each data item appears.
 
 
 
@@ -76,12 +76,12 @@ const devs = [
 ];
 
 // Array.prototype.some()
-// 8. Check if at least one person is 19 or older?
+// 8. Check if at least one person is 19 or older.
 
 
 
 // Array.prototype.every()
-// 9. Check if everyone is 19 or older?
+// 9. Check if everyone is 19 or older.
 
 
 
@@ -94,9 +94,10 @@ const comments = [
 ];
 
 // Array.prototype.find()
-// 10. Find the comment with the id of 823423
+// 10. Find the comment with the id of 823423.
 
 
 
 // Array.prototype.findIndex()
-// 11. Find the index of the comment with an id of 123523
+// 11. Find the index of the comment with an id of 123523.
+
