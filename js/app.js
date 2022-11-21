@@ -21,6 +21,8 @@ const inventors = [
 
 // Array.prototype.map()
 // 2. Map the array of the inventors into a new array containing objects with just the first and last names as properties.
+//    Hint: Each object in the output array should look something like { first: "First Name", last: "Last Name" }
+//          where "First Name" is the inventor's first name and "Last Name" is the inventor's last name.
 
 
 
