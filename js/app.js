@@ -26,10 +26,12 @@ const inventors = [
 
 
 
+// Array.prototype.sort()
 // 3. Sort the inventors by birthdate, from those born furthest in the past to those born most recently.
 
 
 
+// Array.prototype.sort()
 // 4. Sort the inventors by years lived from shortest to longest-lived.
 
 
