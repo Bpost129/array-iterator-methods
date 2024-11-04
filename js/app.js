@@ -31,17 +31,25 @@ const names = inventors.map(name => {
   return { first: name.first, last: name.last }
 })
 
-console.log(names)
+console.log('Problem 2:', names)
 
 // Array.prototype.sort()
 // 3. Sort the inventors by birthdate, from those born furthest in the past to those born most recently.
 
+const older = inventors.sort((a, b) => {
+  return a.year - b.year
+})
 
+console.log('Problem 3:', older)
 
 // Array.prototype.sort()
 // 4. Sort the inventors by years lived from shortest to longest-lived.
 
+const younger = inventors.sort((a, b) => {
+  return (a.passed - a.year) - (b.passed - b.year)
+})
 
+console.log('Problem 4:', younger)
 
 // Array.prototype.reduce()
 // 5. Find how many years all the inventors lived combined.
