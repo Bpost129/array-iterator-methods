@@ -54,7 +54,11 @@ console.log('Problem 4:', younger)
 // Array.prototype.reduce()
 // 5. Find how many years all the inventors lived combined.
 
+let ages = inventors.reduce((prev, person) => {
+  return prev + (person.passed - person.year)
+}, 0)
 
+console.log('Problem 5:', ages)
 
 const people = [
   'Becker, Carl', 'Beckett, Samuel', 'Beddoes, Mick', 'Beecher, Henry',
