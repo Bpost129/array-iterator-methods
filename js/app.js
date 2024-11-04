@@ -20,14 +20,18 @@ const oldies = inventors.filter(inventor => {
   return inventor.year >= 1500 && inventor.year < 1600
 })
 
-console.log(oldies)
+console.log('Problem 1:', oldies)
 
 // Array.prototype.map()
 // 2. Map the array of the inventors into a new array containing objects with just the first and last names as properties.
 //    Hint: Each object in the output array should look something like { first: "First Name", last: "Last Name" }
 //          where "First Name" is the inventor's first name and "Last Name" is the inventor's last name.
 
+const names = inventors.map(name => {
+  return { first: name.first, last: name.last }
+})
 
+console.log(names)
 
 // Array.prototype.sort()
 // 3. Sort the inventors by birthdate, from those born furthest in the past to those born most recently.
